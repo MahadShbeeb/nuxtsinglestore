@@ -1,13 +1,5 @@
 import { defineStore } from "pinia";
 
-<<<<<<< HEAD
-// const {data:products} = 
-//     await useFetch('https://654e4e21cbc325355742b673.mockapi.io/Products/')
-=======
-const {data : products}= await useFetch('https://654e4e21cbc325355742b673.mockapi.io/Products/')
-
-
->>>>>>> c5b8321321fdca3b8b60fff581548292fedea00b
 
 export const useCartStore = defineStore("cart", {
   state: () => ({
