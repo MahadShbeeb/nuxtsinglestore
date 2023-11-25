@@ -49,9 +49,8 @@ export const useCartStore = defineStore("cart", {
     },
    
   },
-<<<<<<< HEAD
+
   getters: {
-    
    
     formattedCart(state) {
         return Object.keys(this.productsInCart).map((productId) => {
@@ -91,6 +90,4 @@ export const useCartStore = defineStore("cart", {
     },
   },
 });
-=======
-});
->>>>>>> c5b8321321fdca3b8b60fff581548292fedea00b
+
