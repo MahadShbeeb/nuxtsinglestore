@@ -20,7 +20,7 @@
 
     <div :class="isOpen?'Block':'hidden'">
         
-        <div class=" flex w-72 flex-col space-y-2 border-r-2 border-gray-200 bg-white p-2" >
+        <div class=" flex w-72 flex-col space-y-2  bg-white p-2" >
         <ul class=" gap-4 items-center  "
             v-for="(item,index) in navItems" :key="index">
             <li class="p-4 border-b-2 border-purple-500 border-opacity-0 

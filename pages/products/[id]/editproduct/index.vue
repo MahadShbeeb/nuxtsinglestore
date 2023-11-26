@@ -45,7 +45,7 @@
                   v-model="product.image" >
               </div>
           </div>
-          <div class="flex  justify-start gap-x-3">
+          <div class="flex gap-x-3">
             <button  class=" btn inline-flex items-center px-6 py-1.5
            mt-4 sm:mt-6 text-lg  text-center text-white bg-primary-700
             rounded-lg hover:bg-primary-800" >
