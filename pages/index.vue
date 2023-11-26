@@ -2,12 +2,13 @@
 <div class="" >
     <div class="h-screen  containerimg shadow-lg bg-center bg-cover max-w-full  ">
     <div class="text-center space-y-2  content">
-        <h1 class="text-white text-4xl font-bold">Single Store</h1>
-        <h3 class="text-white text-xl font-semibold">A Clothing Store That Suits Your Taste</h3>
+        <h1 class="text-white sm:text-3xl lg:text-3xl xl:text-4xl font-bold">Single Store</h1>
+        <h3 class="text-white sm:mt-4 sm:text-xl font-semibold">A Clothing Store That Suits Your Taste</h3>
         <br>
-        <div class="space-x-4">
-          <button class="p-2 px-6 rounded-md text-gray-700 bg-white duration-500 hover:scale-105"><NuxtLink to="/products"> Products </NuxtLink></button>
-        <button class="p-2 px-6 rounded-md text-gray-700 bg-white  duration-500 hover:scale-105"><NuxtLink to="/login"> Get Started </NuxtLink></button>
+        <div class="space-x-4 flex justify-center">
+          <button class="p-2 px-6  rounded-md text-gray-700 bg-white duration-500 hover:scale-105"><NuxtLink to="/products">Products</NuxtLink></button>
+       
+          <button class="p-2 px-6   rounded-md  text-gray-700 bg-white  duration-500 hover:scale-105"><NuxtLink to="/login">Login</NuxtLink></button>
         </div>
     </div>
 </div>

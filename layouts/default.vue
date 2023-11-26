@@ -8,7 +8,7 @@
             
             <nav class=" container mx-auto flex p-4 justify-end "> 
            
-            <ul class=" gap-4 items-center  "
+            <ul class=" gap-4 items-center hidden md:block "
             v-for="(item,index) in navItems" :key="index">
             <li class="p-4 border-b-2 border-purple-500 border-opacity-0 
             hover:border-opacity-100 hover:text-purple-500 duration-200 
@@ -18,9 +18,6 @@
             </ul>
 
 
-    <!-- <button class="bg-slate-500" @click="isOpen=!isOpen">
-    Button
-</button>
     <div :class="isOpen?'Block':'hidden'">
         
         <div class=" flex w-72 flex-col space-y-2 border-r-2 border-gray-200 bg-white p-2" >
@@ -32,9 +29,17 @@
             <NuxtLink :to="`/${item.link}`">{{ item.name }}</NuxtLink>   
             </li>
             </ul>
-        </div>
-    
-</div> -->
+        </div> 
+</div>
+<div class="block md:hidden">
+			<button class="navbar-burger flex items-center text-purple-500 p-3 pt-5" 
+            @click="isOpen=!isOpen">
+				<svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+				</svg>
+			</button>
+		</div>
+
        
         </nav>    
     </header>
@@ -46,7 +51,7 @@
 </template>
 
 <script setup>
-let isOpen = false;
+let isOpen = ref(false);
 
 const navItems = [
 	{
