@@ -8,7 +8,7 @@
         <div class="space-x-4 flex justify-center">
           <button class="p-2 px-6  rounded-md text-gray-700 bg-white duration-500 hover:scale-105"><NuxtLink to="/products">Products</NuxtLink></button>
        
-          <button class="p-2 px-6   rounded-md  text-gray-700 bg-white  duration-500 hover:scale-105"><NuxtLink to="/login">Login</NuxtLink></button>
+          <button class="p-2 px-6   rounded-md  text-gray-700 bg-white  duration-500 hover:scale-105"><NuxtLink >Get Started</NuxtLink></button>
         </div>
     </div>
 </div>
