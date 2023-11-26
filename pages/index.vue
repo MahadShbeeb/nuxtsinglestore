@@ -2,8 +2,8 @@
 <div class="" >
     <div class="h-screen  containerimg shadow-lg bg-center bg-cover max-w-full  ">
     <div class="text-center space-y-2  content">
-        <h1 class="text-white text-4xl font-extralight">SingleStore</h1>
-        <h3 class="text-white sm:mt-4 sm:text-xl ">A Clothing Store That Suits Your Taste</h3>
+        <h1 class="text-white text-4xl font-light">Single Store</h1>
+        <h3 class="text-white sm:mt-4 sm:text-xl font-light ">A Clothing Store That Suits Your Taste</h3>
         <br>
         <div class="space-x-4 flex justify-center">
           <button class="p-2 px-6  rounded-md text-gray-700 bg-white duration-500 
